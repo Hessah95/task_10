@@ -22,6 +22,9 @@
         <div class="col-md-6">
             <a href="{% url 'restaurant-delete' restaurant.id %}" class="btn btn-outline-danger btn-block">Delete</a>
         </div>
+        <div class="col-md-6">
+            <a href="{% url 'item-create' restaurant.id %}" class="btn btn-outline-danger btn-block">create Item</a>
+        </div>
     </div>
   </div>
 </div>
